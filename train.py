@@ -13,7 +13,7 @@ from tqdm import tqdm
 import torch.nn.functional as F
 
 # modules
-from model import SimpleUnet
+from u_net import SimpleUnet
 from dataloader import load_transformed_dataset
 from forward_diffusion import ForwardDiffusion
 
